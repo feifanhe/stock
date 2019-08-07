@@ -61,7 +61,7 @@ class Session:
 session = Session()
 session.load_action('action.json')
 actions = session.actions
-position_table = market.get_stock_table(session)
+position_table = env.get_stock_table(session)
 
 #%%
 
